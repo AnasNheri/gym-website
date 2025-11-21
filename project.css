@@ -1,0 +1,237 @@
+header{
+    background-color: black;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+    font-size: 1.3rem;
+}
+
+nav{
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+nav ul li a{
+    margin: 30px;
+    font-weight: bold;
+    font-size: 1rem;
+    text-decoration: none;
+    color: black;
+    border-radius: 4px;
+}
+
+nav ul li a:hover{
+    background-color:black;
+    color: white;
+    padding: 20px;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    /*background-color: #f5e9d6;*/
+    background-image: url(./imgproject/49e8a2f874cffe0e4e9c6926fb3756b5.jpg);
+}
+
+#home{
+    text-align: center;
+    background-color: white;
+    margin-top: 25px;
+    margin-left: 23%;
+    margin-right: 23%;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+h2 {
+    text-align: center;
+    /*color: white;*/
+}
+
+fieldset {
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 30px;
+}
+
+#tools h2 {
+    color: white;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, select {
+    width: 80%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+#workouts h2 {
+    color: white;
+}
+
+#exercise-info h3 {
+    color: white;
+}
+
+#exercise-list{
+    color: white;
+}
+
+#calculate, #clear {
+    width: 49%;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#clear {
+    background-color: #f44336;
+}
+
+#calculate:hover {
+    background-color: #45a049;
+}
+
+#clear:hover {
+    background-color: #e53935;
+}
+
+#result {
+    text-align: center;
+    font-size: 1.2em;
+    color: #333;
+    margin-top: 20px;
+}
+
+#body-map {
+    position: relative;
+    width: 50%;
+    margin: 20px auto;
+}
+
+#body-image {
+    width: 100%;
+    display: block;
+}
+
+.hover-area {
+    position: absolute;
+    cursor: pointer;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+    z-index: 1;
+}
+
+#chest {
+    top: 20%;
+    left: 20%;
+    width: 15%;
+    height: 10%;
+}
+
+#arms {
+    top: 25%;
+    left: 10%;
+    width: 10%;
+    height: 20%;
+}
+
+#legs {
+    top: 45%;
+    left: 20%;
+    width: 15%;
+    height: 25%;
+}
+
+#back {
+    top: 20%;
+    left: 66%;
+    width: 15%;
+    height: 25%;
+}
+
+.hover-area.hovered {
+    background-color: rgb(238, 96, 96);
+}
+
+#exercise-info {
+    text-align: center;
+}
+
+#articles {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    /*background-color: #f5e9d6;*/
+}
+
+#articles img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#articles a {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    margin-top: 10px; 
+    display: block;
+    font-size: 1rem;
+}
+
+#articles a:hover {
+    color: #fc8c03;
+    text-decoration: underline;
+}
+
+#news h2 {
+    color: white;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+footer a {
+    color:white;
+    font-size: 1.2rem;
+}
+
+footer a:hover {
+    color: #fc8c03;
+}
+
+footer h3{
+    font-size: 1.4rem;
+}
